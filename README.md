@@ -78,7 +78,7 @@ runTick(config)
 
 | Field | Type | Default | Requirement |Description |
 |---|:---:|---|---|---|
-| tick | `Function` | `1000` | `No` | Running interval time |
+| tick | `number` | `1000` | `No` | Running interval time |
 | id |`symbol`| `Symbol()` | `No` | Identifying objects |
 | onTick | `(t: number) => void` | `No` | `Yes` | Runner function, The first parameter is the current timestamp |
 
