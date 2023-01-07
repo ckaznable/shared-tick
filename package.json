@@ -1,7 +1,7 @@
 {
   "name": "shared-tick",
   "description": "Run function in same setInterval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "types": "dist/main.d.ts",
   "files": [
@@ -15,6 +15,7 @@
       "require": "./dist/shared-tick.umd.cjs"
     }
   },
+  "license": "MIT",
   "repository": "github:ckaznable/shared-tick",
   "homepage": "https://github.com/ckaznable/shared-tick",
   "scripts": {
