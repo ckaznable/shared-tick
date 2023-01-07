@@ -1,0 +1,28 @@
+{
+  "name": "shared-tick",
+  "description": "Run function in same setInterval",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/shared-tick.umd.cjs",
+  "module": "./dist/shared-tick.js",
+  "exports": {
+    ".": {
+      "import": "./dist/shared-tick.js",
+      "require": "./dist/shared-tick.umd.cjs"
+    }
+  },
+  "repository": "github:ckaznable/shared-tick",
+  "homepage": "https://github.com/ckaznable/shared-tick",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-dts": "^1.7.1"
+  }
+}
