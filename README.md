@@ -19,6 +19,13 @@ use pnpm
 pnpm install shared-tick
 ```
 
+## Framework
+
+|Framework|Repository|
+|:---|:---:|
+| Vue 3 | [vue-use-shared-tick](https://github.com/ckaznable/vue-use-shared-tick) |
+| React | [react-use-shared-tick](https://github.com/ckaznable/react-use-shared-tick) |
+
 ## Usage
 
 run function per second
