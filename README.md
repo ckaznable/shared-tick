@@ -64,7 +64,7 @@ stopTickRunner(id)
 restart runner
 
 ```js
-import { stopTickRunner, , startTickRunner, runTick } from "shared-tick"
+import { stopTickRunner, startTickRunner, runTick } from "shared-tick"
 
 const id = runTick({...})
 stopTickRunner(id)
