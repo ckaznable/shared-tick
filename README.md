@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/shared-tick?color=g)](https://www.npmjs.com/package/shared-tick)
+
 # SharedTick.js
 
 Run function in same `setInterval`
